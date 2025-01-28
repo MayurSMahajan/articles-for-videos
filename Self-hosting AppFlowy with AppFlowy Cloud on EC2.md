@@ -1,25 +1,35 @@
 # Self Hosting AppFlowy Cloud using EC2 instance - Updated on 28 Jan 2025
 
+### Motivation
+
 AppFlowy is rapidly developing with new updates. Therefore a lot of changes will occur in the process of self-hosting AppFlowy with EC2. I will try to this article with all the new changes as they occur. Therefore, this article should serve as an up-to-date reference for achieving our goal, that is to self host AppFlowy on EC2 instance. 
 
 Thus I recommend you to always first read this article and then watch the video-tutorial and in case of a discrepancy, always stick with the steps mentioned in this article instead of the video.
 
-#### Contents of the article: 
+> ✨ or star emoji indicates new updates in that step. 
+
+### Outline: 
 
 Step 1: Amazon EC2 setup - same as the video
+
 Step 2: Connect to your instance with SSH
+
 Step 3: Setting up Docker
-Step 4: Setting up AppFlowy Cloud server (New Updates)
+
+Step 4: Setting up AppFlowy Cloud server (New Updates) ✨
+
 Step 4.3: Setting up OAuth with GitHub
+
 Step 4.7: (Optional) Updating our EC2's inbound rule
+
 Step 5: Setting up AppFlowy Client App
 
-#### Other updates:
+### Other updates: ✨
 
 1. To check if your server is running or not, directly hit the server using your browser instead of hitting `http://<your-public-doman/your-public-ip>/web/login`
 
 ---
-#### Updated Step 4 - Setting up AppFlowy Cloud Server
+### Updated Step 4 - Setting up AppFlowy Cloud Server ✨
 
 1. Clone the latest AppFlowy repository
    `git clone https://github.com/AppFlowy-IO/AppFlowy-Cloud && cd AppFlowy-Cloud`
