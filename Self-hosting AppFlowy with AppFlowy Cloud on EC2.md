@@ -8,6 +8,8 @@ Thus I recommend you to always first read this article and then watch the video-
 
 > ✨ or star emoji indicates new updates in that step. 
 
+> The official upgrade notes regarding self hosting can be found here: https://appflowy.com/docs/self-hosters-upgrade-notes
+
 ### Outline: 
 
 Step 1: Amazon EC2 setup - same as the video
@@ -26,7 +28,7 @@ Step 5: Setting up AppFlowy Client App
 
 ### Other updates: ✨
 
-1. To check if your server is running or not, directly hit the server using your browser instead of hitting `http://<your-public-doman/your-public-ip>/web/login`
+1. AppFlowy team has moved the admin frontend to `http://<public-ip/host>/console`, so that users can install Appflowy web on / `(http://<public-ip/host>`
 
 ---
 ### Updated Step 4 - Setting up AppFlowy Cloud Server ✨
